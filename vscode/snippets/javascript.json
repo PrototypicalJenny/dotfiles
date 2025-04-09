@@ -1,0 +1,32 @@
+{
+    "JSON stringify": 
+    {
+              "prefix": "jstr",
+              "body": [
+                        "JSON.stringify($1)"
+              ]
+    },
+    "TODO JAV":
+    {
+        "prefix": "\/\/t",
+        "body": [
+            "$LINE_COMMENT TODO JAV: ${0}"
+        ]
+    },
+    "function stub":
+    {
+        "prefix": "fun",
+        "body": [
+            "function($1)",
+            "{",
+            "    $0",
+            "}${2:;}"
+        ]
+    },
+    "Shrug":
+    {
+        "prefix": "/shrug",
+        "body": "¯\\_(ツ)_/¯",
+        "description": "For when you just don't know"
+    }
+}
